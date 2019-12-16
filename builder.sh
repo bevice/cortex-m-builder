@@ -3,5 +3,6 @@ mkdir -p /src /build /artifacts
 cd /build
 cmake ${CMAKE_PARAMS} /src
 cmake --build . ${CMAKE_BUILD_PARAMS}
-cp *.{bin,elf} /artifacts
+cp *.bin /artifacts
+cp *.elf /artifacts
  
