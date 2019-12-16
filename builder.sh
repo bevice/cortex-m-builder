@@ -1,7 +1,7 @@
 #!/bin/sh
 mkdir -p /src /build /artifacts
 cd /build
-cmake /src
-cmake --build .
+cmake ${CMAKE_PARAMS} /src
+cmake --build . ${CMAKE_BUILD_PARAMS}
 cp *.{bin,elf} /artifacts
  
