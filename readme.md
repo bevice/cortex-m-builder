@@ -1,7 +1,7 @@
 # Docker-сборщик arm-none-eabi-gcc
 
 ## Использование
-```docker run -rm -v /path/to/src:/src -v /path/to/artifacts:/artifacts bevice/cortex-m-builder```
+```docker run --rm -v /path/to/src:/src -v /path/to/artifacts:/artifacts bevice/cortex-m-builder```
 
 Используемые внутри контейнера пути:
 * ```/src```   - Исходники для сборки, должен содержать CMakeLists.txt
