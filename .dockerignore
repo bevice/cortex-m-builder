@@ -1,0 +1,5 @@
+.git
+artifacts
+build
+tests
+__pycache__
